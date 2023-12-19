@@ -60,7 +60,7 @@ def main():
     hands_model = mp.solutions.hands.Hands(
         static_image_mode=False,
         max_num_hands=1,
-        min_detection_confidence=0.2,
+        min_detection_confidence=0.7,
         min_tracking_confidence=0.5,
     )
     keypoint_classifier_model = KeyPointClassifier()
