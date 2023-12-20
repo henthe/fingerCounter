@@ -238,11 +238,19 @@ def pre_process_landmark(landmark_list):
 
         temp_landmark_list[index][0] = temp_landmark_list[index][0] - base_x
         temp_landmark_list[index][1] = temp_landmark_list[index][1] - base_y
+    #calculating distances
+    if temp_landmark_list:
+        distancevectorXY_12_16 = ((temp_landmark_list[16][1] - temp_landmark_list[12][1])**2 + (temp_landmark_list[16][0] - temp_landmark_list[12][0])**2)**.5
+        distancevectorXY_8_12 = ((temp_landmark_list[12][1] - temp_landmark_list[8][1])**2 + (temp_landmark_list[12][0] - temp_landmark_list[8][0])**2)**.5
+        distancevectorXY_16_20 = ((temp_landmark_list[20][1] - temp_landmark_list[16][1]) ** 2 + (temp_landmark_list[20][0] - temp_landmark_list[16][0]) ** 2) ** .5
 
     # Convert to a one-dimensional list
     temp_landmark_list = list(
         itertools.chain.from_iterable(temp_landmark_list))
-
+    if temp_landmark_list:
+        temp_landmark_list.append(distancevectorXY_12_16)
+        temp_landmark_list.append(distancevectorXY_8_12)
+        temp_landmark_list.append(distancevectorXY_16_20)
     # Check if temp_landmark_list is empty before normalization
     if not temp_landmark_list:
         return []
