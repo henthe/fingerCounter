@@ -34,7 +34,7 @@ def predict_landmarks(image_path, hands_model, keypoint_classifier_model):
     #Check if the landmark list is not empty before logging
     if pre_processed_landmark_list:
         # Write the predicted landmarks to the keypoint.csv file
-        logging_csv(6, 1, pre_processed_landmark_list, [])
+        logging_csv(7, 1, pre_processed_landmark_list, [])
 
     return pre_processed_landmark_list
 
@@ -66,7 +66,7 @@ def main():
     keypoint_classifier_model = KeyPointClassifier()
 
     # Directory containing images for which you want to predict landmarks
-    image_dir = "C:\\Git1\\hand-gesture-recognition-mediapipe\\DatasetForFingerCounter\\Sub\\ImagesHenrik\\spock_Henrik"
+    image_dir = "C:\\Git1\\hand-gesture-recognition-mediapipe\\DatasetForFingerCounter\\Sub\\other_dataset\\henrik_other"
 
     for filename in os.listdir(image_dir):
         if filename.endswith(".jpg"):
