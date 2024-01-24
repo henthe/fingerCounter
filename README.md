@@ -23,7 +23,7 @@ Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
 Henrik used LightGBM. Dominik used Mediapipe.
 
-
+As a second project, Dominik went with a different preprocessing algorithm, he used two-dimensional normalized coordinates and used Tensorflow as a model.
 
 # 2D approach with Tensorflow
 To run the "2D_approach" a detailed instruction can be found in "2D_approach/2approachDocu.md". The folder contains a jupyter notebook file, 
