@@ -1,5 +1,5 @@
 # Projekt-Seminar Deep Learing (Prof. Dr. Jörn Hees) #
-## Group: Leon Schirra. Alexander Kolb, Dominik Zoric, Henrik Theisen ##
+## Group: Leon Schirra, Alexander Kolb, Dominik Zoric, Henrik Theisen ##
 ## Topic: Finger Counter ##
 
 Every member of our group went with a different approach.
