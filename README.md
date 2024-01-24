@@ -36,8 +36,8 @@ The model is trained to classify hand gestures into our 8 predefined classes, an
 for one time model building and model evaluation.
 
 ### Sources
--- [Mediapipe](https://mediapipe.dev/)
--- [Mediapipe: Customize Handgestures](https://developers.google.com/mediapipe/solutions/customization/gesture_recognizer)
+- [Mediapipe](https://mediapipe.dev/)
+- [Mediapipe: Customize Handgestures](https://developers.google.com/mediapipe/solutions/customization/gesture_recognizer)
 
 # LightGBM
 1. Pull the DataSet Repo somewhere
