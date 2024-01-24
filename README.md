@@ -8,7 +8,8 @@ The images and the CSVs can be found in our Dataset Repository: https://github.c
 Based on this shared preprocessing, we divided our team's focus into the following topics:
 Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
-Henrik used LightGBM. Dominik used Mediapipe.
+Henrik used LightGBM. Dominik used Mediapipe.<br>
+At the end of this project we combined our models to create the ultimate hand gesture recognizer.
 
 As a second project, Dominik went with a different preprocessing algorithm, he used two-dimensional normalized coordinates and trained his model with the Tensorflow Framework.
 
