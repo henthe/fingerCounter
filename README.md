@@ -8,7 +8,7 @@ Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
 Henrik used LightGBM. Dominik used Mediapipe.
 
-As a second project, Dominik went with a different preprocessing algorithm, he calculated two-dimensional coordinates and then used Tensorflow as a model.
+As a second project, Dominik went with a different preprocessing algorithm, he used two-dimensional normalized coordinates and used Tensorflow as a model.
 
 The Mediapipe code to generate the landmarks is based on this Repository https://github.com/nicknochnack/MediaPipeHandPose
 
