@@ -13,6 +13,11 @@ As a second project, Dominik went with a different preprocessing algorithm, he u
 
 The Mediapipe code to generate the landmarks is based on this Repository https://github.com/nicknochnack/MediaPipeHandPose
 
+# Requirements
+- Python 3.10
+- All other required packages can be installed via the Jupyter Notebooks
+
+
 # 2D approach with Tensorflow
 To run the "2D_approach" a detailed instruction can be found in "2D_approach/2approachDocu.md". The folder contains a jupyter notebook file, 
 where you can find the background of the models building, training and Hyperparameter-tuning and an exported TensorFlow model(model.keras), 
@@ -48,32 +53,24 @@ This approach is based on this notebook: https://www.kaggle.com/code/prashant111
 
 4. If you only want to execute certain classifiers, only execute the corresponding cells. To use Pipeline then change the parameters of the classifiers to be used.
    
-## Sources
+### Sources
 - [Scikit-Learn](https://scikit-learn.org/)
 - [Kaggle: k-Nearest Neighbors](https://www.kaggle.com/code/amolbhivarkar/knn-for-classification-using-scikit-learn)
 - [GitHub: Pipeline & Other Classifier](https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L194)
 - [GitHub: param-grids](https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L474)
 
 # TensorFlow
-
 The Folder "TensorFlow" contains a jupyter notebook file and a pre-trained TensorFlow model (.kreas).
 The Python script implements a deep learning model for hand gesture recognition based on landmark data extracted from images. The model is trained to classify hand gestures into predefined classes, and the script provides functionality for hyperparameter tuning, model evaluation, and visualization of misclassified samples.
 
-
-## Requirements
-
-- Python 3.9 - 3.11
-- All other required packages can be installed via the Jupyter Notebook
-
-
-## Usage
+### Usage
 
 1. Clone the dataset repository if you want to work with our data.
 2. Clone this repository and create a new virtual environment to run the Jupyter Notebook.
 3. In the first cell of the Jupyter Notebook, adjust the path variables.
 4. Run the cells sequentially (most cells require the execution of the previous cell to run).
 
-## Sources
+### Sources
 
 - [YouTube: TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial](https://www.youtube.com/watch?v=WVOMGekzbWE&t=2378s)
 - [YouTube: Hand Gesture Recognition using TensorFlow | Hand Pose Estimation | MediaPipe](https://www.youtube.com/watch?v=_c_x8A3mNDk&t=7s)
