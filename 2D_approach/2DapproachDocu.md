@@ -3,8 +3,7 @@ Estimate hand pose using MediaPipe (Python version).<br> This is a sample
 program that recognizes hand signs and finger gestures with a simple MLP using the detected key points.
 <br> ❗ _️**This is English Translated version of the [original repo](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe). All Content is translated to english along with comments and notebooks**_ ❗
 <br> 
-![mqlrf-s6x16](https://user-images.githubusercontent.com/37477845/102222442-c452cd00-3f26-11eb-93ec-c387c98231be.gif)
-
+!
 This repository contains the following contents.
 * Sample program, by Alex, Leon, Henrik and Dominik
 * Hand sign recognition model(TFLite)
@@ -102,24 +101,25 @@ The key point coordinates are the ones that have undergone the following preproc
 
 
 #### 2.Model training
-Open "[keypoint_classification_EN.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
-Since in our project we have eight classed"NUM_CLASSES = 8" <br>and modify the label of "model/keypoint_classifier/keypoint_classifier_label.csv" as appropriate.<br><br>
+Open "[keypoint_classification_EN.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute the cells for your use case
+If you want to run it without Parametertuning, run all cells under the headline "
+Old Model building and training without Hyperparameter-tuning". For Hyperparameter-tuning and better accuracy results, run the cells after the Headline 
+"Optimized Model building and Paramtertuning". .<br>
+Since in our project we have eight classed"NUM_CLASSES = 8" <br><br>
 
 #### X.Model structure
-The image of the model prepared in "[keypoint_classification.ipynb](keypoint_classification.ipynb)" is as follows.
-<img src="https://user-images.githubusercontent.com/37477845/102246723-69c76a00-3f42-11eb-8a4b-7c6b032b7e71.png" width="50%"><br><br>
 
 
 # Reference
 * [MediaPipe](https://mediapipe.dev/)
 
-# Author
+# Original Author
 Kazuhito Takahashi(https://twitter.com/KzhtTkhs)
 
 # Translation and other improvements
 Nikita Kiselov(https://github.com/kinivi)
 
-# Further Improvements in context for the "deep Learning" course by
+# Further Improvements in context for the "deep Learning" course
 Dominik Zoric(https://github.com/domzoric)
  
 # License 
