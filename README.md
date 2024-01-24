@@ -60,7 +60,7 @@ This approach is based on this notebook: https://www.kaggle.com/code/prashant111
 - [GitHub: param-grids](https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L474)
 
 # TensorFlow
-The Folder "TensorFlow" contains a jupyter notebook file and a pre-trained TensorFlow model (.kreas).
+The Folder "TensorFlow" contains a jupyter notebook file and a pre-trained TensorFlow model (.keras).
 The Python script implements a deep learning model for hand gesture recognition based on landmark data extracted from images. The model is trained to classify hand gestures into predefined classes, and the script provides functionality for hyperparameter tuning, model evaluation, and visualization of misclassified samples.
 
 ### Usage
