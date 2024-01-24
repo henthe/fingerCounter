@@ -6,9 +6,9 @@ Every member of our group went with a different approach.
 Three of us used Microsofts Mediapipe hands libary as a bassline to create 3D Coordinates of every knuckle in a hand and used those to then proceed with our different approaches.
 Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
-Henrik used LightGBM.
+Henrik used LightGBM. Dominik used Mediapipe.
 
-Dominik went with a completly different approach and calculated 2D coordinates and then used Tensorflow as a model.
+As a second project, Dominik went with a different preprocessing algorithm, he calculated two-dimensional coordinates and then used Tensorflow as a model.
 
 
 DataSet Repo: https://github.com/henthe/DatasetForFingerCounter.git
@@ -22,6 +22,14 @@ we split beforehand uniformly in train, test and validation.
 The model is trained to classify hand gestures into our 8 predefined classes, and the jupyter notebook provides functionality 
 for one time model building, hyperparameter tuning, model evaluation, and visualization of misclassified samples.
 
+# Mediapipe
+The "mediapipe" folder contains a Google colab notebook file, 
+where you can find the background of the models building, training and an exported model. Keep in mind for the use of the model you need the pictures located somewhere,
+where they can be referenced. For further information of the specific folder structure visit: https://developers.google.com/mediapipe/solutions/customization/gesture_recognizer.
+After setting up your environment and the pictures, you can execute the cells one by one.
+The model is trained to classify hand gestures into our 8 predefined classes, and the jupyter notebook provides functionality 
+for one time model building and model evaluation.
+
 # LightGBM
 1. Pull the DataSet Repo somewhere
 2. Put path to repo in path variable
@@ -31,7 +39,12 @@ for one time model building, hyperparameter tuning, model evaluation, and visual
 
 5. For live demo run last cell
 
+# Scikit-Learn
+1. Pull the DataSet Repo somewhere
+2. Put path to repo in path variable
+3. Run everything
 
+4. If you only want to execute certain classifiers, only execute the corresponding cells. To use Pipeline then change the parameters of the classifiers to be used.
 
 # TensorFlow
 
