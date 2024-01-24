@@ -2,8 +2,9 @@
 ## Group: Leon Schirra, Alexander Kolb, Dominik Zoric, Henrik Theisen ##
 ## Topic: Finger Counter ##
 
-Every member of our group went with a different approach.
-Three of us used Microsofts Mediapipe hands libary as a bassline to create 3D Coordinates of every knuckle in a hand and used those to then proceed with our different approaches.
+Our group focused on AI-based hand gesture recognition, employing four distinct approaches, all rooted in the same preparation process.
+As part of the preparation, each member captured 100 images for various hand poses, including "0,1,2,3,4,5,Spock,Other." These images were then mixed and divided into three sets: 80% for training, 10% for testing, and 10% for validation. For each of these three sets, a Mediapipe hand recognition AI was applied, generating CSV files. Each CSV file contains the image names and 21*3 landmark coordinates (21 landmarks with x, y, and z coordinates each). The images and the CSVs can be found in our Dataset Repository: https://github.com/henthe/DatasetForFingerCounter.git
+Based on this shared preprocessing, we divided our team's focus into the following topics:
 Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
 Henrik used LightGBM. Dominik used Mediapipe.
@@ -11,19 +12,6 @@ Henrik used LightGBM. Dominik used Mediapipe.
 As a second project, Dominik went with a different preprocessing algorithm, he used two-dimensional normalized coordinates and used Tensorflow as a model.
 
 The Mediapipe code to generate the landmarks is based on this Repository https://github.com/nicknochnack/MediaPipeHandPose
-
-
-DataSet Repo: https://github.com/henthe/DatasetForFingerCounter.git
-
-HIER NEU
-Our group focused on AI-based hand gesture recognition, employing four distinct approaches, all rooted in the same preparation process.
-As part of the preparation, each member captured 100 images for various hand poses, including "0,1,2,3,4,5,Spock,Other." These images were then mixed and divided into three sets: 80% for training, 10% for testing, and 10% for validation. For each of these three sets, a Mediapipe hand recognition AI was applied, generating CSV files. Each CSV file contains the image names and 21*3 landmark coordinates (21 landmarks with x, y, and z coordinates each). The images and the csv can be found in our Dataset Repository: https://github.com/henthe/DatasetForFingerCounter.git
-Based on this shared preprocessing, we divided our team's focus into the following topics:
-Leon used the 3D coordinates with Tensorflow.
-Alexander went with ScikitLearn.
-Henrik used LightGBM. Dominik used Mediapipe.
-
-As a second project, Dominik went with a different preprocessing algorithm, he used two-dimensional normalized coordinates and used Tensorflow as a model.
 
 # 2D approach with Tensorflow
 To run the "2D_approach" a detailed instruction can be found in "2D_approach/2approachDocu.md". The folder contains a jupyter notebook file, 
