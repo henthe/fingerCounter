@@ -49,6 +49,12 @@ This approach is based on this notebook: https://www.kaggle.com/code/prashant111
 3. Run everything
 
 4. If you only want to execute certain classifiers, only execute the corresponding cells. To use Pipeline then change the parameters of the classifiers to be used.
+   
+## Sources
+- [Scikit-Learn](https://scikit-learn.org/)
+- [Kaggle: k-Nearest Neighbors](https://www.kaggle.com/code/amolbhivarkar/knn-for-classification-using-scikit-learn)
+- [GitHub: Pipeline & Other Classifier](https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L194)
+- [GitHub: param-grids](https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L474)
 
 # TensorFlow
 
@@ -75,10 +81,7 @@ The Python script implements a deep learning model for hand gesture recognition 
 - [YouTube: Hand Gesture Recognition using TensorFlow | Hand Pose Estimation | MediaPipe](https://www.youtube.com/watch?v=_c_x8A3mNDk&t=7s)
 - [GitHub: Google Research - Tuning Playbook](https://github.com/google-research/tuning_playbook)
 - [Keras Documentation](https://keras.io/keras_tuner/)
-- https://www.kaggle.com/code/amolbhivarkar/knn-for-classification-using-scikit-learn
-- https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L194
-- https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L474
-
+  
 # License
 
 TODO 
