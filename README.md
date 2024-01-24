@@ -6,9 +6,9 @@ Every member of our group went with a different approach.
 Three of us used Microsofts Mediapipe hands libary as a bassline to create 3D Coordinates of every knuckle in a hand and used those to then proceed with our different approaches.
 Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
-Henrik used LightGBM.
+Henrik used LightGBM. Dominik used Mediapipe.
 
-Dominik went with a completly different approach and calculated 2D coordinates and then used Tensorflow as a model.
+As a second project, Dominik went with a completly different approach, calculated 2D coordinates and then used Tensorflow as a model.
 
 
 DataSet Repo: https://github.com/henthe/DatasetForFingerCounter.git
