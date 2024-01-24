@@ -31,7 +31,12 @@ for one time model building, hyperparameter tuning, model evaluation, and visual
 
 5. For live demo run last cell
 
+# Scikit-Learn
+1. Pull the DataSet Repo somewhere
+2. Put path to repo in path variable
+3. Run everything
 
+4.If you only want to execute certain classifiers, only execute the corresponding cells. To use Pipeline then change the parameters of the classifiers to be used.
 
 # TensorFlow
 
