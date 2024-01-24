@@ -7,9 +7,7 @@ program that recognizes hand signs and finger gestures with a simple MLP using t
 This repository contains the following contents.
 * Sample program, by Alex, Leon, Henrik and Dominik
 * Hand sign recognition model(TFLite)
-* Finger gesture recognition model(TFLite)
 * Learning data for hand sign recognition and notebook for learning
-* Learning data for finger gesture recognition and notebook for learning
 
 # Requirements
 * mediapipe 0.8.1
@@ -36,10 +34,9 @@ Tracking confidence threshold (Default：0.7)
 
 # Directory
 <pre>
-│  app.py #improvements by @Dominik Zoric
-   generate_landmarks.py #Author @Dominik Zoric, file is needed to preprocess Images
-│  keypoint_classification_EN.ipynb #used for training the model, improvements by @Dominik Zoric
-│  point_history_classification.ipynb #useless for usecase "deep learning"
+│  app.py                                   #improvements by @Dominik Zoric
+   generate_landmarks.py                    #Author @Dominik Zoric, file is needed to preprocess Images
+│  keypoint_classification_EN.ipynb         #used for training the model, improvements by @Dominik Zoric, added Parametertuning, optimized modelbulding for our use case
 │  
 ├─model
 │  ├─keypoint_classifier
@@ -47,12 +44,12 @@ Tracking confidence threshold (Default：0.7)
 │  │  │  keypoint_classifier.hdf5
 │  │  │  keypoint_classifier.py
 │  │  │  keypoint_classifier.tflite
-│  │  │  keypointsTest.csv #Used for testing the model
-│  │  │  keypointsTrain.csv #Used for training the model
-│  │  │  keypointsVal.csv #Used to optimize Paramtertuning
-│  │  └─ keypoint_classifier_label.csv #all data combined not in use for the actual model
+│  │  │  keypointsTest.csv                  #Used for testing the model
+│  │  │  keypointsTrain.csv                 #Used for training the model
+│  │  │  keypointsVal.csv                   #Used to optimize Hyperparameter-tuning
+│  │  └─ keypoint_classifier_label.csv      #all data combined not used for the actual model
 │  │          
-│  └─point_history_classifier #not used for "deep learning" course
+│  └─point_history_classifier               #Whole folder not used for "deep learning" course, from the Author of the original repository 
 │      │  point_history.csv
 │      │  point_history_classifier.hdf5
 │      │  point_history_classifier.py
