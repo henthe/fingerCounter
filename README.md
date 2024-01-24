@@ -8,7 +8,7 @@ Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
 Henrik used LightGBM. Dominik used Mediapipe.
 
-As a second project, Dominik went with a completly different approach, calculated 2D coordinates and then used Tensorflow as a model.
+As a second project, Dominik went with a different preprocessing algorithm, he calculated two-dimensional coordinates and then used Tensorflow as a model.
 
 
 DataSet Repo: https://github.com/henthe/DatasetForFingerCounter.git
