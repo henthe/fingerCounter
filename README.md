@@ -20,7 +20,7 @@ The Mediapipe code to generate the landmarks is based on this Repository https:/
 
 
 # 2D approach with Tensorflow
-To run the "2D_approach" a detailed instruction can be found in "2D_approach/2approachDocu.md". The folder contains a jupyter notebook file, 
+To run the "2D_approach" a detailed instruction can be found in ["2D_approach/2approachDocu.md"](https://github.com/henthe/fingerCounter/blob/main/2D_approach/2DapproachDocu.md). The folder contains a jupyter notebook file, 
 where you can find the background of the models building, training and Hyperparameter-tuning and an exported TensorFlow model(model.keras), 
 which can be tested in real time, capturing your webcam. In this approach Dominik created his "own" preprocessing algorithm, inspired by an
 already existing GitHub repository(detailed information in 2approachDocu.md). He generated two-dimensional landmarks from the pictures, which
