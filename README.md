@@ -31,6 +31,8 @@ for one time model building, hyperparameter tuning, model evaluation, and visual
 ### Sources
 - [original respository , used as tutorial](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
 - [Youtube Tutorial, original repository explained](https://www.youtube.com/watch?v=a99p_fAr6e4&t=157s&ab_channel=IvanGoncharov)
+- [GitHub: Google Research - Tuning Playbook](https://github.com/google-research/tuning_playbook)
+- [Keras Documentation](https://keras.io/keras_tuner/)
 
 # Mediapipe
 The "mediapipe" folder contains a Google colab notebook file, 
