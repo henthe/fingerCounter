@@ -23,7 +23,7 @@ The model is trained to classify hand gestures into our 8 predefined classes, an
 for one time model building, hyperparameter tuning, model evaluation, and visualization of misclassified samples.
 
 # Mediapipe
-The "Mediapipe" folder contains a Google colab notebook file, 
+The "mediapipe" folder contains a Google colab notebook file, 
 where you can find the background of the models building, training and an exported model. Keep in mind for the use of the model you need the pictures located somewhere,
 where they can be referenced. For further information of the specific folder structure visit: https://developers.google.com/mediapipe/solutions/customization/gesture_recognizer.
 After setting up your environment and the pictures, you can execute the cells one by one.
