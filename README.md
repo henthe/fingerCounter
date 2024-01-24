@@ -35,6 +35,10 @@ After setting up your environment and the pictures, you can execute the cells on
 The model is trained to classify hand gestures into our 8 predefined classes, and the jupyter notebook provides functionality 
 for one time model building and model evaluation.
 
+### Sources
+-- [Mediapipe](https://mediapipe.dev/)
+-- [Mediapipe: Customize Handgestures](https://developers.google.com/mediapipe/solutions/customization/gesture_recognizer)
+
 # LightGBM
 1. Pull the DataSet Repo somewhere
 2. Put path to repo in path variable
