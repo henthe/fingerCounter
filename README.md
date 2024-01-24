@@ -9,7 +9,7 @@ Based on this shared preprocessing, we divided our team's focus into the followi
 Leon used the 3D coordinates with Tensorflow.
 Alexander went with ScikitLearn.
 Henrik used LightGBM. Dominik used Mediapipe.<br>
-At the end of this project we combined our models to create the ultimate hand gesture recognizer.
+At the end of this project we combined our models to create the ultimate hand gesture recognizer "TLS".
 
 As a second project, Dominik went with a different preprocessing algorithm, he used two-dimensional normalized coordinates and trained his model with the Tensorflow Framework.
 
@@ -98,6 +98,5 @@ The Python script implements a deep learning model for hand gesture recognition 
 - [GitHub: Google Research - Tuning Playbook](https://github.com/google-research/tuning_playbook)
 - [Keras Documentation](https://keras.io/keras_tuner/)
   
-# License
-
-TODO 
+# Combined Model TLS
+The combined model (TLS) of our models from TensorFlow, LightGBM and Scikit-Learn can be found in Combined_Models.
