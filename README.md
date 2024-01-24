@@ -44,7 +44,11 @@ for one time model building and model evaluation.
 
 5. For live demo run last cell
 
-This approach is based on this notebook: https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python
+### Sources
+
+[Kaggle: Tutorial](https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python)
+[Flaml: Documentation](https://microsoft.github.io/FLAML/docs/getting-started)
+[LightGBM: Documentation](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
 
 # Scikit-Learn
 1. Pull the DataSet Repo somewhere
