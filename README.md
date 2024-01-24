@@ -14,7 +14,7 @@ As a second project, Dominik went with a different preprocessing algorithm, he u
 The Mediapipe code to generate the landmarks is based on this Repository https://github.com/nicknochnack/MediaPipeHandPose
 
 # Requirements
-- Python 3.10- 
+- Python 3.10.x
 - All other required packages can be installed via the Jupyter Notebooks
 - Further requirements for 2D_approach in 2D_approach/2DapproachDocu.md
 
@@ -50,7 +50,7 @@ for one time model building and model evaluation.
 LightGBM is a tree based Neural Network Model. This notebook is based on the following notebook:
 https://www.kaggle.com/code/bhavinmoriya/lightgbm-classifier-in-python
 
-## This is a guide on how to use this notebook
+## Guide
 1. Pull the DataSet Repo somewhere
 2. Put path to repo in path variable
 3. Run everything but the last two Cells
