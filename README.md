@@ -71,6 +71,9 @@ The Python script implements a deep learning model for hand gesture recognition 
 - [YouTube: Hand Gesture Recognition using TensorFlow | Hand Pose Estimation | MediaPipe](https://www.youtube.com/watch?v=_c_x8A3mNDk&t=7s)
 - [GitHub: Google Research - Tuning Playbook](https://github.com/google-research/tuning_playbook)
 - [Keras Documentation](https://keras.io/keras_tuner/)
+- [https://www.kaggle.com/code/amolbhivarkar/knn-for-classification-using-scikit-learn)
+- [https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L194)
+- [https://github.com/RDFLib/graph-pattern-learner/blob/master/fusion/trained.py#L474)
 
 # License
 
