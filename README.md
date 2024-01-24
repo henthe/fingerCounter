@@ -46,9 +46,9 @@ for one time model building and model evaluation.
 
 ### Sources
 
-[Kaggle: Tutorial](https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python)
-[Flaml: Documentation](https://microsoft.github.io/FLAML/docs/getting-started)
-[LightGBM: Documentation](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
+- [Kaggle: Tutorial](https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python)
+- [Flaml: Documentation](https://microsoft.github.io/FLAML/docs/getting-started)
+- [LightGBM: Documentation](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
 
 # Scikit-Learn
 1. Pull the DataSet Repo somewhere
