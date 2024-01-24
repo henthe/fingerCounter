@@ -10,6 +10,8 @@ Henrik used LightGBM. Dominik used Mediapipe.
 
 As a second project, Dominik went with a different preprocessing algorithm, he calculated two-dimensional coordinates and then used Tensorflow as a model.
 
+The Mediapipe code to generate the landmarks is based on this Repository https://github.com/nicknochnack/MediaPipeHandPose
+
 
 DataSet Repo: https://github.com/henthe/DatasetForFingerCounter.git
 
@@ -38,6 +40,8 @@ for one time model building and model evaluation.
 4. For single picture tryout run second to last cell (line 10 image_path has to be the path to the image you want to try)
 
 5. For live demo run last cell
+
+This approach is based on this notebook: https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python
 
 # Scikit-Learn
 1. Pull the DataSet Repo somewhere
