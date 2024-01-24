@@ -16,6 +16,7 @@ The Mediapipe code to generate the landmarks is based on this Repository https:/
 # Requirements
 - Python 3.10- 
 - All other required packages can be installed via the Jupyter Notebooks
+- Further requirements for 2D_approach in 2D_approach/2DapproachDocu.md
 
 
 # 2D approach with Tensorflow
