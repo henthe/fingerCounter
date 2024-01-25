@@ -53,13 +53,13 @@ LightGBM is a tree based Neural Network Model. This notebook is based on the fol
 https://www.kaggle.com/code/bhavinmoriya/lightgbm-classifier-in-python
 
 ## Guide
-1. Pull the DataSet Repo somewhere
-2. Put path to repo in path variable
-3. Run everything but the last two Cells
+1. Clone the DataSet repository to your local machine.
+2. Update the path variable with the path to the cloned repository.
+3. Execute all the cells in the notebook except the last two.
 
-4. For single picture tryout run second to last cell (line 10 image_path has to be the path to the image you want to try)
+4. To try a single image, run the second-to-last cell. Ensure that the image_path variable in line 10 contains the correct path to the image you want to test.
 
-5. For live demo run last cell
+5. For a live demo, run the last cell.
 
 ### Sources
 
